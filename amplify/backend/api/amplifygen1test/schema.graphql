@@ -1,0 +1,4 @@
+type ShiftLog @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  Message: String
+}
